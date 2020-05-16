@@ -1,0 +1,52 @@
+|logic8
+111 <= decoder1:inst2.111
+K => counter:inst.K
+CP => counter:inst.CP
+CLRN => counter:inst.CLRN
+110 <= decoder1:inst2.110
+101 <= decoder1:inst2.101
+100 <= decoder1:inst2.100
+011 <= decoder1:inst2.011
+010 <= decoder1:inst2.010
+001 <= decoder1:inst2.001
+000 <= decoder1:inst2.000
+
+
+|logic8|decoder1:inst2
+111 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+pin_name2 => inst.IN0
+pin_name2 => inst1.IN0
+pin_name2 => inst2.IN0
+pin_name2 => inst3.IN0
+pin_name2 => inst9.IN0
+pin_name3 => inst.IN1
+pin_name3 => inst1.IN1
+pin_name3 => inst10.IN0
+pin_name3 => inst4.IN1
+pin_name3 => inst5.IN1
+pin_name4 => inst.IN2
+pin_name4 => inst11.IN0
+pin_name4 => inst2.IN2
+pin_name4 => inst4.IN2
+pin_name4 => inst6.IN2
+110 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+101 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+100 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+011 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+010 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+001 <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+000 <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|logic8|counter:inst
+e0 <= inst20.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => inst20.ACLR
+CLRN => inst21.ACLR
+CLRN => inst22.ACLR
+CP => inst20.CLK
+e1 <= inst21.DB_MAX_OUTPUT_PORT_TYPE
+K => inst.IN0
+K => inst2.IN0
+e2 <= inst22.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,528 @@
+TimeQuest Timing Analyzer report for 3
+Fri Apr 12 15:05:19 2019
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. TimeQuest Timing Analyzer Summary
+  3. Parallel Compilation
+  4. Clocks
+  5. Slow Model Fmax Summary
+  6. Slow Model Setup Summary
+  7. Slow Model Hold Summary
+  8. Slow Model Recovery Summary
+  9. Slow Model Removal Summary
+ 10. Slow Model Minimum Pulse Width Summary
+ 11. Propagation Delay
+ 12. Minimum Propagation Delay
+ 13. Fast Model Setup Summary
+ 14. Fast Model Hold Summary
+ 15. Fast Model Recovery Summary
+ 16. Fast Model Removal Summary
+ 17. Fast Model Minimum Pulse Width Summary
+ 18. Propagation Delay
+ 19. Minimum Propagation Delay
+ 20. Multicorner Timing Analysis Summary
+ 21. Progagation Delay
+ 22. Minimum Progagation Delay
+ 23. Clock Transfers
+ 24. Report TCCS
+ 25. Report RSKM
+ 26. Unconstrained Paths
+ 27. TimeQuest Timing Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-----------------------------------------------------------------------------------------+
+; TimeQuest Timing Analyzer Summary                                                       ;
++--------------------+--------------------------------------------------------------------+
+; Quartus II Version ; Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version ;
+; Revision Name      ; 3                                                                  ;
+; Device Family      ; Cyclone II                                                         ;
+; Device Name        ; EP2C8Q208C8                                                        ;
+; Timing Models      ; Final                                                              ;
+; Delay Model        ; Combined                                                           ;
+; Rise/Fall Delays   ; Unavailable                                                        ;
++--------------------+--------------------------------------------------------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 4           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processors 2-8         ;   0.0%      ;
++----------------------------+-------------+
+
+
+----------
+; Clocks ;
+----------
+No clocks to report.
+
+
+---------------------------
+; Slow Model Fmax Summary ;
+---------------------------
+No paths to report.
+
+
+----------------------------
+; Slow Model Setup Summary ;
+----------------------------
+No paths to report.
+
+
+---------------------------
+; Slow Model Hold Summary ;
+---------------------------
+No paths to report.
+
+
+-------------------------------
+; Slow Model Recovery Summary ;
+-------------------------------
+No paths to report.
+
+
+------------------------------
+; Slow Model Removal Summary ;
+------------------------------
+No paths to report.
+
+
+------------------------------------------
+; Slow Model Minimum Pulse Width Summary ;
+------------------------------------------
+No paths to report.
+
+
++--------------------------------------------------------------+
+; Propagation Delay                                            ;
++------------+-------------+--------+--------+--------+--------+
+; Input Port ; Output Port ; RR     ; RF     ; FR     ; FF     ;
++------------+-------------+--------+--------+--------+--------+
+; A1         ; COUT        ; 15.641 ;        ;        ; 15.641 ;
+; A1         ; SUM1        ; 14.041 ; 14.041 ; 14.041 ; 14.041 ;
+; A1         ; SUM2        ; 16.208 ; 16.208 ; 16.208 ; 16.208 ;
+; A1         ; SUM3        ; 16.237 ; 16.237 ; 16.237 ; 16.237 ;
+; A1         ; SUM4        ; 17.192 ; 17.192 ; 17.192 ; 17.192 ;
+; A2         ; COUT        ; 14.436 ;        ;        ; 14.436 ;
+; A2         ; SUM2        ; 15.003 ; 15.003 ; 15.003 ; 15.003 ;
+; A2         ; SUM3        ; 15.032 ; 15.032 ; 15.032 ; 15.032 ;
+; A2         ; SUM4        ; 15.987 ; 15.987 ; 15.987 ; 15.987 ;
+; A3         ; COUT        ; 15.432 ;        ;        ; 15.432 ;
+; A3         ; SUM2        ; 15.999 ; 15.999 ; 15.999 ; 15.999 ;
+; A3         ; SUM3        ; 16.028 ; 16.028 ; 16.028 ; 16.028 ;
+; A3         ; SUM4        ; 16.983 ; 16.983 ; 16.983 ; 16.983 ;
+; A4         ; COUT        ; 13.829 ;        ;        ; 13.829 ;
+; A4         ; SUM2        ; 14.396 ; 14.396 ; 14.396 ; 14.396 ;
+; A4         ; SUM3        ; 14.425 ; 14.425 ; 14.425 ; 14.425 ;
+; A4         ; SUM4        ; 15.380 ; 15.380 ; 15.380 ; 15.380 ;
+; B1         ; COUT        ; 14.535 ;        ;        ; 14.535 ;
+; B1         ; SUM1        ; 12.945 ; 12.945 ; 12.945 ; 12.945 ;
+; B1         ; SUM2        ; 15.102 ; 15.102 ; 15.102 ; 15.102 ;
+; B1         ; SUM3        ; 15.131 ; 15.131 ; 15.131 ; 15.131 ;
+; B1         ; SUM4        ; 16.086 ; 16.086 ; 16.086 ; 16.086 ;
+; B2         ; COUT        ; 14.050 ;        ;        ; 14.050 ;
+; B2         ; SUM2        ; 14.617 ; 14.617 ; 14.617 ; 14.617 ;
+; B2         ; SUM3        ; 14.646 ; 14.646 ; 14.646 ; 14.646 ;
+; B2         ; SUM4        ; 15.601 ; 15.601 ; 15.601 ; 15.601 ;
+; B3         ; COUT        ; 14.968 ;        ;        ; 14.968 ;
+; B3         ; SUM2        ; 15.535 ; 15.535 ; 15.535 ; 15.535 ;
+; B3         ; SUM3        ; 15.564 ; 15.564 ; 15.564 ; 15.564 ;
+; B3         ; SUM4        ; 16.519 ; 16.519 ; 16.519 ; 16.519 ;
+; B4         ; COUT        ; 13.549 ;        ;        ; 13.549 ;
+; B4         ; SUM2        ; 14.116 ; 14.116 ; 14.116 ; 14.116 ;
+; B4         ; SUM3        ; 14.145 ; 14.145 ; 14.145 ; 14.145 ;
+; B4         ; SUM4        ; 15.100 ; 15.100 ; 15.100 ; 15.100 ;
+; CIN        ; COUT        ; 16.090 ;        ;        ; 16.090 ;
+; CIN        ; SUM1        ; 14.501 ; 14.501 ; 14.501 ; 14.501 ;
+; CIN        ; SUM2        ; 16.657 ; 16.657 ; 16.657 ; 16.657 ;
+; CIN        ; SUM3        ; 16.686 ; 16.686 ; 16.686 ; 16.686 ;
+; CIN        ; SUM4        ; 17.641 ; 17.641 ; 17.641 ; 17.641 ;
++------------+-------------+--------+--------+--------+--------+
+
+
++--------------------------------------------------------------+
+; Minimum Propagation Delay                                    ;
++------------+-------------+--------+--------+--------+--------+
+; Input Port ; Output Port ; RR     ; RF     ; FR     ; FF     ;
++------------+-------------+--------+--------+--------+--------+
+; A1         ; COUT        ; 15.641 ;        ;        ; 15.641 ;
+; A1         ; SUM1        ; 14.041 ; 14.041 ; 14.041 ; 14.041 ;
+; A1         ; SUM2        ; 14.625 ; 14.625 ; 14.625 ; 14.625 ;
+; A1         ; SUM3        ; 14.645 ; 14.645 ; 14.645 ; 14.645 ;
+; A1         ; SUM4        ; 15.600 ; 15.600 ; 15.600 ; 15.600 ;
+; A2         ; COUT        ; 14.436 ;        ;        ; 14.436 ;
+; A2         ; SUM2        ; 13.879 ; 13.879 ; 13.879 ; 13.879 ;
+; A2         ; SUM3        ; 13.907 ; 13.907 ; 13.907 ; 13.907 ;
+; A2         ; SUM4        ; 14.813 ; 14.813 ; 14.813 ; 14.813 ;
+; A3         ; COUT        ; 14.829 ;        ;        ; 14.829 ;
+; A3         ; SUM2        ; 15.396 ; 15.396 ; 15.396 ; 15.396 ;
+; A3         ; SUM3        ; 15.425 ; 15.425 ; 15.425 ; 15.425 ;
+; A3         ; SUM4        ; 14.539 ; 14.539 ; 14.539 ; 14.539 ;
+; A4         ; COUT        ; 13.829 ;        ;        ; 13.829 ;
+; A4         ; SUM2        ; 14.396 ; 14.396 ; 14.396 ; 14.396 ;
+; A4         ; SUM3        ; 14.425 ; 14.425 ; 14.425 ; 14.425 ;
+; A4         ; SUM4        ; 14.777 ; 14.777 ; 14.777 ; 14.777 ;
+; B1         ; COUT        ; 14.535 ;        ;        ; 14.535 ;
+; B1         ; SUM1        ; 12.945 ; 12.945 ; 12.945 ; 12.945 ;
+; B1         ; SUM2        ; 13.529 ; 13.529 ; 13.529 ; 13.529 ;
+; B1         ; SUM3        ; 13.549 ; 13.549 ; 13.549 ; 13.549 ;
+; B1         ; SUM4        ; 14.504 ; 14.504 ; 14.504 ; 14.504 ;
+; B2         ; COUT        ; 14.050 ;        ;        ; 14.050 ;
+; B2         ; SUM2        ; 14.046 ; 14.046 ; 14.046 ; 14.046 ;
+; B2         ; SUM3        ; 14.074 ; 14.074 ; 14.074 ; 14.074 ;
+; B2         ; SUM4        ; 14.427 ; 14.427 ; 14.427 ; 14.427 ;
+; B3         ; COUT        ; 14.402 ;        ;        ; 14.402 ;
+; B3         ; SUM2        ; 14.969 ; 14.969 ; 14.969 ; 14.969 ;
+; B3         ; SUM3        ; 14.998 ; 14.998 ; 14.998 ; 14.998 ;
+; B3         ; SUM4        ; 14.112 ; 14.112 ; 14.112 ; 14.112 ;
+; B4         ; COUT        ; 13.549 ;        ;        ; 13.549 ;
+; B4         ; SUM2        ; 14.116 ; 14.116 ; 14.116 ; 14.116 ;
+; B4         ; SUM3        ; 14.145 ; 14.145 ; 14.145 ; 14.145 ;
+; B4         ; SUM4        ; 14.556 ; 14.556 ; 14.556 ; 14.556 ;
+; CIN        ; COUT        ; 16.090 ;        ;        ; 16.090 ;
+; CIN        ; SUM1        ; 14.501 ; 14.501 ; 14.501 ; 14.501 ;
+; CIN        ; SUM2        ; 15.085 ; 15.085 ; 15.085 ; 15.085 ;
+; CIN        ; SUM3        ; 15.105 ; 15.105 ; 15.105 ; 15.105 ;
+; CIN        ; SUM4        ; 16.060 ; 16.060 ; 16.060 ; 16.060 ;
++------------+-------------+--------+--------+--------+--------+
+
+
+----------------------------
+; Fast Model Setup Summary ;
+----------------------------
+No paths to report.
+
+
+---------------------------
+; Fast Model Hold Summary ;
+---------------------------
+No paths to report.
+
+
+-------------------------------
+; Fast Model Recovery Summary ;
+-------------------------------
+No paths to report.
+
+
+------------------------------
+; Fast Model Removal Summary ;
+------------------------------
+No paths to report.
+
+
+------------------------------------------
+; Fast Model Minimum Pulse Width Summary ;
+------------------------------------------
+No paths to report.
+
+
++----------------------------------------------------------+
+; Propagation Delay                                        ;
++------------+-------------+-------+-------+-------+-------+
+; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
++------------+-------------+-------+-------+-------+-------+
+; A1         ; COUT        ; 6.616 ;       ;       ; 6.616 ;
+; A1         ; SUM1        ; 6.120 ; 6.120 ; 6.120 ; 6.120 ;
+; A1         ; SUM2        ; 6.757 ; 6.757 ; 6.757 ; 6.757 ;
+; A1         ; SUM3        ; 6.777 ; 6.777 ; 6.777 ; 6.777 ;
+; A1         ; SUM4        ; 7.056 ; 7.056 ; 7.056 ; 7.056 ;
+; A2         ; COUT        ; 6.264 ;       ;       ; 6.264 ;
+; A2         ; SUM2        ; 6.405 ; 6.405 ; 6.405 ; 6.405 ;
+; A2         ; SUM3        ; 6.425 ; 6.425 ; 6.425 ; 6.425 ;
+; A2         ; SUM4        ; 6.704 ; 6.704 ; 6.704 ; 6.704 ;
+; A3         ; COUT        ; 6.552 ;       ;       ; 6.552 ;
+; A3         ; SUM2        ; 6.693 ; 6.693 ; 6.693 ; 6.693 ;
+; A3         ; SUM3        ; 6.713 ; 6.713 ; 6.713 ; 6.713 ;
+; A3         ; SUM4        ; 6.992 ; 6.992 ; 6.992 ; 6.992 ;
+; A4         ; COUT        ; 6.079 ;       ;       ; 6.079 ;
+; A4         ; SUM2        ; 6.220 ; 6.220 ; 6.220 ; 6.220 ;
+; A4         ; SUM3        ; 6.240 ; 6.240 ; 6.240 ; 6.240 ;
+; A4         ; SUM4        ; 6.519 ; 6.519 ; 6.519 ; 6.519 ;
+; B1         ; COUT        ; 6.293 ;       ;       ; 6.293 ;
+; B1         ; SUM1        ; 5.803 ; 5.803 ; 5.803 ; 5.803 ;
+; B1         ; SUM2        ; 6.434 ; 6.434 ; 6.434 ; 6.434 ;
+; B1         ; SUM3        ; 6.454 ; 6.454 ; 6.454 ; 6.454 ;
+; B1         ; SUM4        ; 6.733 ; 6.733 ; 6.733 ; 6.733 ;
+; B2         ; COUT        ; 6.165 ;       ;       ; 6.165 ;
+; B2         ; SUM2        ; 6.306 ; 6.306 ; 6.306 ; 6.306 ;
+; B2         ; SUM3        ; 6.326 ; 6.326 ; 6.326 ; 6.326 ;
+; B2         ; SUM4        ; 6.605 ; 6.605 ; 6.605 ; 6.605 ;
+; B3         ; COUT        ; 6.428 ;       ;       ; 6.428 ;
+; B3         ; SUM2        ; 6.569 ; 6.569 ; 6.569 ; 6.569 ;
+; B3         ; SUM3        ; 6.589 ; 6.589 ; 6.589 ; 6.589 ;
+; B3         ; SUM4        ; 6.868 ; 6.868 ; 6.868 ; 6.868 ;
+; B4         ; COUT        ; 6.012 ;       ;       ; 6.012 ;
+; B4         ; SUM2        ; 6.153 ; 6.153 ; 6.153 ; 6.153 ;
+; B4         ; SUM3        ; 6.173 ; 6.173 ; 6.173 ; 6.173 ;
+; B4         ; SUM4        ; 6.452 ; 6.452 ; 6.452 ; 6.452 ;
+; CIN        ; COUT        ; 6.842 ;       ;       ; 6.842 ;
+; CIN        ; SUM1        ; 6.352 ; 6.352 ; 6.352 ; 6.352 ;
+; CIN        ; SUM2        ; 6.983 ; 6.983 ; 6.983 ; 6.983 ;
+; CIN        ; SUM3        ; 7.003 ; 7.003 ; 7.003 ; 7.003 ;
+; CIN        ; SUM4        ; 7.282 ; 7.282 ; 7.282 ; 7.282 ;
++------------+-------------+-------+-------+-------+-------+
+
+
++----------------------------------------------------------+
+; Minimum Propagation Delay                                ;
++------------+-------------+-------+-------+-------+-------+
+; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
++------------+-------------+-------+-------+-------+-------+
+; A1         ; COUT        ; 6.616 ;       ;       ; 6.616 ;
+; A1         ; SUM1        ; 6.120 ; 6.120 ; 6.120 ; 6.120 ;
+; A1         ; SUM2        ; 6.298 ; 6.298 ; 6.298 ; 6.298 ;
+; A1         ; SUM3        ; 6.310 ; 6.310 ; 6.310 ; 6.310 ;
+; A1         ; SUM4        ; 6.588 ; 6.588 ; 6.588 ; 6.588 ;
+; A2         ; COUT        ; 6.264 ;       ;       ; 6.264 ;
+; A2         ; SUM2        ; 6.094 ; 6.094 ; 6.094 ; 6.094 ;
+; A2         ; SUM3        ; 6.114 ; 6.114 ; 6.114 ; 6.114 ;
+; A2         ; SUM4        ; 6.359 ; 6.359 ; 6.359 ; 6.359 ;
+; A3         ; COUT        ; 6.387 ;       ;       ; 6.387 ;
+; A3         ; SUM2        ; 6.528 ; 6.528 ; 6.528 ; 6.528 ;
+; A3         ; SUM3        ; 6.548 ; 6.548 ; 6.548 ; 6.548 ;
+; A3         ; SUM4        ; 6.295 ; 6.295 ; 6.295 ; 6.295 ;
+; A4         ; COUT        ; 6.079 ;       ;       ; 6.079 ;
+; A4         ; SUM2        ; 6.220 ; 6.220 ; 6.220 ; 6.220 ;
+; A4         ; SUM3        ; 6.240 ; 6.240 ; 6.240 ; 6.240 ;
+; A4         ; SUM4        ; 6.338 ; 6.338 ; 6.338 ; 6.338 ;
+; B1         ; COUT        ; 6.293 ;       ;       ; 6.293 ;
+; B1         ; SUM1        ; 5.803 ; 5.803 ; 5.803 ; 5.803 ;
+; B1         ; SUM2        ; 5.981 ; 5.981 ; 5.981 ; 5.981 ;
+; B1         ; SUM3        ; 5.993 ; 5.993 ; 5.993 ; 5.993 ;
+; B1         ; SUM4        ; 6.271 ; 6.271 ; 6.271 ; 6.271 ;
+; B2         ; COUT        ; 6.165 ;       ;       ; 6.165 ;
+; B2         ; SUM2        ; 6.141 ; 6.141 ; 6.141 ; 6.141 ;
+; B2         ; SUM3        ; 6.161 ; 6.161 ; 6.161 ; 6.161 ;
+; B2         ; SUM4        ; 6.260 ; 6.260 ; 6.260 ; 6.260 ;
+; B3         ; COUT        ; 6.256 ;       ;       ; 6.256 ;
+; B3         ; SUM2        ; 6.397 ; 6.397 ; 6.397 ; 6.397 ;
+; B3         ; SUM3        ; 6.417 ; 6.417 ; 6.417 ; 6.417 ;
+; B3         ; SUM4        ; 6.164 ; 6.164 ; 6.164 ; 6.164 ;
+; B4         ; COUT        ; 6.012 ;       ;       ; 6.012 ;
+; B4         ; SUM2        ; 6.153 ; 6.153 ; 6.153 ; 6.153 ;
+; B4         ; SUM3        ; 6.173 ; 6.173 ; 6.173 ; 6.173 ;
+; B4         ; SUM4        ; 6.287 ; 6.287 ; 6.287 ; 6.287 ;
+; CIN        ; COUT        ; 6.842 ;       ;       ; 6.842 ;
+; CIN        ; SUM1        ; 6.352 ; 6.352 ; 6.352 ; 6.352 ;
+; CIN        ; SUM2        ; 6.530 ; 6.530 ; 6.530 ; 6.530 ;
+; CIN        ; SUM3        ; 6.542 ; 6.542 ; 6.542 ; 6.542 ;
+; CIN        ; SUM4        ; 6.820 ; 6.820 ; 6.820 ; 6.820 ;
++------------+-------------+-------+-------+-------+-------+
+
+
++----------------------------------------------------------------------------+
+; Multicorner Timing Analysis Summary                                        ;
++------------------+-------+------+----------+---------+---------------------+
+; Clock            ; Setup ; Hold ; Recovery ; Removal ; Minimum Pulse Width ;
++------------------+-------+------+----------+---------+---------------------+
+; Worst-case Slack ; N/A   ; N/A  ; N/A      ; N/A     ; N/A                 ;
+; Design-wide TNS  ; 0.0   ; 0.0  ; 0.0      ; 0.0     ; 0.0                 ;
++------------------+-------+------+----------+---------+---------------------+
+
+
++--------------------------------------------------------------+
+; Progagation Delay                                            ;
++------------+-------------+--------+--------+--------+--------+
+; Input Port ; Output Port ; RR     ; RF     ; FR     ; FF     ;
++------------+-------------+--------+--------+--------+--------+
+; A1         ; COUT        ; 15.641 ;        ;        ; 15.641 ;
+; A1         ; SUM1        ; 14.041 ; 14.041 ; 14.041 ; 14.041 ;
+; A1         ; SUM2        ; 16.208 ; 16.208 ; 16.208 ; 16.208 ;
+; A1         ; SUM3        ; 16.237 ; 16.237 ; 16.237 ; 16.237 ;
+; A1         ; SUM4        ; 17.192 ; 17.192 ; 17.192 ; 17.192 ;
+; A2         ; COUT        ; 14.436 ;        ;        ; 14.436 ;
+; A2         ; SUM2        ; 15.003 ; 15.003 ; 15.003 ; 15.003 ;
+; A2         ; SUM3        ; 15.032 ; 15.032 ; 15.032 ; 15.032 ;
+; A2         ; SUM4        ; 15.987 ; 15.987 ; 15.987 ; 15.987 ;
+; A3         ; COUT        ; 15.432 ;        ;        ; 15.432 ;
+; A3         ; SUM2        ; 15.999 ; 15.999 ; 15.999 ; 15.999 ;
+; A3         ; SUM3        ; 16.028 ; 16.028 ; 16.028 ; 16.028 ;
+; A3         ; SUM4        ; 16.983 ; 16.983 ; 16.983 ; 16.983 ;
+; A4         ; COUT        ; 13.829 ;        ;        ; 13.829 ;
+; A4         ; SUM2        ; 14.396 ; 14.396 ; 14.396 ; 14.396 ;
+; A4         ; SUM3        ; 14.425 ; 14.425 ; 14.425 ; 14.425 ;
+; A4         ; SUM4        ; 15.380 ; 15.380 ; 15.380 ; 15.380 ;
+; B1         ; COUT        ; 14.535 ;        ;        ; 14.535 ;
+; B1         ; SUM1        ; 12.945 ; 12.945 ; 12.945 ; 12.945 ;
+; B1         ; SUM2        ; 15.102 ; 15.102 ; 15.102 ; 15.102 ;
+; B1         ; SUM3        ; 15.131 ; 15.131 ; 15.131 ; 15.131 ;
+; B1         ; SUM4        ; 16.086 ; 16.086 ; 16.086 ; 16.086 ;
+; B2         ; COUT        ; 14.050 ;        ;        ; 14.050 ;
+; B2         ; SUM2        ; 14.617 ; 14.617 ; 14.617 ; 14.617 ;
+; B2         ; SUM3        ; 14.646 ; 14.646 ; 14.646 ; 14.646 ;
+; B2         ; SUM4        ; 15.601 ; 15.601 ; 15.601 ; 15.601 ;
+; B3         ; COUT        ; 14.968 ;        ;        ; 14.968 ;
+; B3         ; SUM2        ; 15.535 ; 15.535 ; 15.535 ; 15.535 ;
+; B3         ; SUM3        ; 15.564 ; 15.564 ; 15.564 ; 15.564 ;
+; B3         ; SUM4        ; 16.519 ; 16.519 ; 16.519 ; 16.519 ;
+; B4         ; COUT        ; 13.549 ;        ;        ; 13.549 ;
+; B4         ; SUM2        ; 14.116 ; 14.116 ; 14.116 ; 14.116 ;
+; B4         ; SUM3        ; 14.145 ; 14.145 ; 14.145 ; 14.145 ;
+; B4         ; SUM4        ; 15.100 ; 15.100 ; 15.100 ; 15.100 ;
+; CIN        ; COUT        ; 16.090 ;        ;        ; 16.090 ;
+; CIN        ; SUM1        ; 14.501 ; 14.501 ; 14.501 ; 14.501 ;
+; CIN        ; SUM2        ; 16.657 ; 16.657 ; 16.657 ; 16.657 ;
+; CIN        ; SUM3        ; 16.686 ; 16.686 ; 16.686 ; 16.686 ;
+; CIN        ; SUM4        ; 17.641 ; 17.641 ; 17.641 ; 17.641 ;
++------------+-------------+--------+--------+--------+--------+
+
+
++----------------------------------------------------------+
+; Minimum Progagation Delay                                ;
++------------+-------------+-------+-------+-------+-------+
+; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
++------------+-------------+-------+-------+-------+-------+
+; A1         ; COUT        ; 6.616 ;       ;       ; 6.616 ;
+; A1         ; SUM1        ; 6.120 ; 6.120 ; 6.120 ; 6.120 ;
+; A1         ; SUM2        ; 6.298 ; 6.298 ; 6.298 ; 6.298 ;
+; A1         ; SUM3        ; 6.310 ; 6.310 ; 6.310 ; 6.310 ;
+; A1         ; SUM4        ; 6.588 ; 6.588 ; 6.588 ; 6.588 ;
+; A2         ; COUT        ; 6.264 ;       ;       ; 6.264 ;
+; A2         ; SUM2        ; 6.094 ; 6.094 ; 6.094 ; 6.094 ;
+; A2         ; SUM3        ; 6.114 ; 6.114 ; 6.114 ; 6.114 ;
+; A2         ; SUM4        ; 6.359 ; 6.359 ; 6.359 ; 6.359 ;
+; A3         ; COUT        ; 6.387 ;       ;       ; 6.387 ;
+; A3         ; SUM2        ; 6.528 ; 6.528 ; 6.528 ; 6.528 ;
+; A3         ; SUM3        ; 6.548 ; 6.548 ; 6.548 ; 6.548 ;
+; A3         ; SUM4        ; 6.295 ; 6.295 ; 6.295 ; 6.295 ;
+; A4         ; COUT        ; 6.079 ;       ;       ; 6.079 ;
+; A4         ; SUM2        ; 6.220 ; 6.220 ; 6.220 ; 6.220 ;
+; A4         ; SUM3        ; 6.240 ; 6.240 ; 6.240 ; 6.240 ;
+; A4         ; SUM4        ; 6.338 ; 6.338 ; 6.338 ; 6.338 ;
+; B1         ; COUT        ; 6.293 ;       ;       ; 6.293 ;
+; B1         ; SUM1        ; 5.803 ; 5.803 ; 5.803 ; 5.803 ;
+; B1         ; SUM2        ; 5.981 ; 5.981 ; 5.981 ; 5.981 ;
+; B1         ; SUM3        ; 5.993 ; 5.993 ; 5.993 ; 5.993 ;
+; B1         ; SUM4        ; 6.271 ; 6.271 ; 6.271 ; 6.271 ;
+; B2         ; COUT        ; 6.165 ;       ;       ; 6.165 ;
+; B2         ; SUM2        ; 6.141 ; 6.141 ; 6.141 ; 6.141 ;
+; B2         ; SUM3        ; 6.161 ; 6.161 ; 6.161 ; 6.161 ;
+; B2         ; SUM4        ; 6.260 ; 6.260 ; 6.260 ; 6.260 ;
+; B3         ; COUT        ; 6.256 ;       ;       ; 6.256 ;
+; B3         ; SUM2        ; 6.397 ; 6.397 ; 6.397 ; 6.397 ;
+; B3         ; SUM3        ; 6.417 ; 6.417 ; 6.417 ; 6.417 ;
+; B3         ; SUM4        ; 6.164 ; 6.164 ; 6.164 ; 6.164 ;
+; B4         ; COUT        ; 6.012 ;       ;       ; 6.012 ;
+; B4         ; SUM2        ; 6.153 ; 6.153 ; 6.153 ; 6.153 ;
+; B4         ; SUM3        ; 6.173 ; 6.173 ; 6.173 ; 6.173 ;
+; B4         ; SUM4        ; 6.287 ; 6.287 ; 6.287 ; 6.287 ;
+; CIN        ; COUT        ; 6.842 ;       ;       ; 6.842 ;
+; CIN        ; SUM1        ; 6.352 ; 6.352 ; 6.352 ; 6.352 ;
+; CIN        ; SUM2        ; 6.530 ; 6.530 ; 6.530 ; 6.530 ;
+; CIN        ; SUM3        ; 6.542 ; 6.542 ; 6.542 ; 6.542 ;
+; CIN        ; SUM4        ; 6.820 ; 6.820 ; 6.820 ; 6.820 ;
++------------+-------------+-------+-------+-------+-------+
+
+
+-------------------
+; Clock Transfers ;
+-------------------
+Nothing to report.
+
+
+---------------
+; Report TCCS ;
+---------------
+No dedicated SERDES Transmitter circuitry present in device or used in design
+
+
+---------------
+; Report RSKM ;
+---------------
+No dedicated SERDES Receiver circuitry present in device or used in design
+
+
++------------------------------------------------+
+; Unconstrained Paths                            ;
++---------------------------------+-------+------+
+; Property                        ; Setup ; Hold ;
++---------------------------------+-------+------+
+; Illegal Clocks                  ; 0     ; 0    ;
+; Unconstrained Clocks            ; 0     ; 0    ;
+; Unconstrained Input Ports       ; 9     ; 9    ;
+; Unconstrained Input Port Paths  ; 39    ; 39   ;
+; Unconstrained Output Ports      ; 5     ; 5    ;
+; Unconstrained Output Port Paths ; 39    ; 39   ;
++---------------------------------+-------+------+
+
+
++------------------------------------+
+; TimeQuest Timing Analyzer Messages ;
++------------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
+    Info: Processing started: Fri Apr 12 15:05:16 2019
+Info: Command: quartus_sta 3 -c 3
+Info: qsta_default_script.tcl version: #1
+Info (11104): Parallel Compilation has detected 8 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 4 of the 4 physical processors detected instead.
+Info (21077): Low junction temperature is 0 degrees C
+Info (21077): High junction temperature is 85 degrees C
+Critical Warning (332012): Synopsys Design Constraints File file not found: '3.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning (332068): No clocks defined in design.
+Info: Found TIMEQUEST_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
+Info (332159): No clocks to report
+Info: Analyzing Slow Model
+Info (332140): No fmax paths to report
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332140): No Minimum Pulse Width paths to report
+Info (332001): The selected device family is not supported by the report_metastability command.
+Info: Analyzing Fast Model
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning (332068): No clocks defined in design.
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332140): No Minimum Pulse Width paths to report
+Info (332001): The selected device family is not supported by the report_metastability command.
+Info (332102): Design is not fully constrained for setup requirements
+Info (332102): Design is not fully constrained for hold requirements
+Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 3 warnings
+    Info: Peak virtual memory: 4601 megabytes
+    Info: Processing ended: Fri Apr 12 15:05:19 2019
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:03
+
+

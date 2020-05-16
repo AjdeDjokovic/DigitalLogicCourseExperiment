@@ -1,0 +1,26 @@
+|2improve
+out <= 7486:inst2.1
+a => 7486:inst.2
+b => 7486:inst.3
+c => 7486:inst1.2
+d => 7486:inst1.3
+
+
+|2improve|7486:inst2
+1 <= 4.DB_MAX_OUTPUT_PORT_TYPE
+2 => 4.IN0
+3 => 4.IN1
+
+
+|2improve|7486:inst
+1 <= 4.DB_MAX_OUTPUT_PORT_TYPE
+2 => 4.IN0
+3 => 4.IN1
+
+
+|2improve|7486:inst1
+1 <= 4.DB_MAX_OUTPUT_PORT_TYPE
+2 => 4.IN0
+3 => 4.IN1
+
+

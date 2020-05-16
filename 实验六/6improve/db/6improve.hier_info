@@ -1,0 +1,42 @@
+|6improve
+o0 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+cp => inst1.CLK
+cp => inst3.CLK
+cp => inst5.CLK
+o1 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+con => 7486:inst6.3
+con => 7486:inst15.2
+con => 7486:inst14.3
+o2 <= inst5.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|6improve|7486:inst7
+1 <= 4.DB_MAX_OUTPUT_PORT_TYPE
+2 => 4.IN0
+3 => 4.IN1
+
+
+|6improve|7486:inst6
+1 <= 4.DB_MAX_OUTPUT_PORT_TYPE
+2 => 4.IN0
+3 => 4.IN1
+
+
+|6improve|7486:inst12
+1 <= 4.DB_MAX_OUTPUT_PORT_TYPE
+2 => 4.IN0
+3 => 4.IN1
+
+
+|6improve|7486:inst15
+1 <= 4.DB_MAX_OUTPUT_PORT_TYPE
+2 => 4.IN0
+3 => 4.IN1
+
+
+|6improve|7486:inst14
+1 <= 4.DB_MAX_OUTPUT_PORT_TYPE
+2 => 4.IN0
+3 => 4.IN1
+
+
